@@ -1,0 +1,31 @@
+/*
+Hermano adjacente
+Cambia la propiedad de las etiquetas que estén cercanas a cierta etiqueta
+h2 + p {
+    color: red;
+}
+*/
+
+/*
+Hermano general
+Cambia la propiedad de las etiquetas que estén en al misma línea de cierta etiqueta
+h2 ~ p {
+    color: red;
+}
+*/
+
+/*
+Hijo
+Cambia la propiedad de las etiquetas que sean hijos directos (o estén justo después) de cierta etiqueta
+div > p {
+    color: red;
+}
+*/
+
+/*
+Descendiente
+Cambia la propiedad de las etiquetas contenidas (o estén dentro) por cierta etiqueta/clase
+div p {
+    color: red;
+}
+*/
