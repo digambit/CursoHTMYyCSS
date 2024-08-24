@@ -1,0 +1,53 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-size: 1.6rem;
+}
+
+.container {
+    border: .3rem solid black; 
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.box {
+    height: 10rem;
+    flex-basis: 10rem;
+    flex-grow: 1;
+}
+
+.box1 {
+    background-color: pink;
+}
+
+.box2 {
+    background-color: burlywood;
+}
+
+.box3 {
+    background-color: salmon;
+
+}
+
+.box4 {
+    background-color: green;
+
+}
+
+.box5 {
+    background-color: orange;
+
+}
+
+.box6 {
+    background-color: violet;
+
+}
